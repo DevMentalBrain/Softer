@@ -1,0 +1,69 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rebeccapurple;
+}
+
+.main-page-softer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/Images/LadingPage/background.jpg");
+    background-size: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.cabecalho-home-softer{
+    width: max-content;
+    height: 25%;
+}
+
+.logo-home-icon{
+    width: 13.02vw;
+    height: 6.40vh;
+    background-image: url("../../assets/Images/LadingPage/logo-home.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.sec-text-motivacional-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+    height: 45%;
+
+}
+
+.cont-text-motivacional-home{
+    width: 50%;
+    height: 75%;
+}
+
+.text-motivacional-home{
+    width: 100%;
+    height: max-content;
+    font-size: 3rem;
+    color: white;
+    font-family: "Familjen Grotesk";
+    font-weight: 400;
+}
+
+.button-iniciar-home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+    height: 14%;
+    background-color: inherit;
+    border: 3px solid white;
+    border-radius: 10rem;
+    font-size:1.5rem;
+    color: white;
+    font-family: "Familjen Grotesk";
+    cursor: pointer;
+}
